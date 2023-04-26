@@ -1,0 +1,97 @@
+.main_div {
+  padding: 3px;
+  border-radius: 10px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+input {
+  padding: 10px 142px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.searchdata {
+  padding: 12px 30px;
+  border-radius: 29px;
+  cursor: pointer;
+  background-color: blueviolet;
+  border: none;
+  color: #fff;
+}
+
+.searchpahge{
+  background-image: url("backgroundimg.jpg");
+  width: 100%;
+
+}
+.heading{
+  color: white;
+}
+
+.card {
+  list-style: none;
+  display: flex;
+
+}
+.horizontalRow{
+  color:blueviolet;
+  width: 100rem;
+  margin-top: 20px;
+
+}
+img{
+
+  height: 68px;
+  width: 54px;
+
+}
+
+.verticalrow{
+  border-left: 2px solid rgb(63, 64, 63);
+  display: inline-block;
+
+}
+li{
+  list-style: none;
+}
+
+.userList{
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.detailContainer{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 1rem;
+}
+.name{
+  text-align: left;
+  margin: 0;
+}
+.nickNameContainer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nickName{
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 1px 8px;
+}
+.numberContainer{
+  display: flex;
+}
+.lineItem{
+  margin-top: 21px;
+}
